@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  /* background:rgb(var(--background-rgb)); */
+
+  /* background-position: center !important; */
+  background-image: url("/VR web BG V25.png") !important;
+  background-repeat: no-repeat !important;
+  /* background-size: cover !important;
+   */
+  /* background-color: #000 !important; */
+  background-size: cover !important;
+  background-position: center !important;
+
+  /* width: 100% !important; */
+}
