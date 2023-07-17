@@ -48,8 +48,8 @@ const HomeComp = () => {
                 </div>
                 <div class="lg:order-2 order-1">
                   <Image
-                    className="h-auto w-auto  "
-                    src="/VR_web_super_groot_animation v1.gif"
+                    className="h-auto "
+                    src="/VR web super groot animation 3k by 3k.gif"
                     width={500}
                     height={500}
                     alt=""

@@ -157,7 +157,7 @@ export default function HeaderComp() {
             href="/ourTeam"
             className="text-lg font-bold leading-6 text-white hover:bg-gradient-to-r from-purple-500 to-pink-500 hover:text-transparent hover:bg-clip-text hover:font-bold"
           >
-           Our Team
+            Our Team
           </Link>
           {/* <Link
             href="/blog"

@@ -11,91 +11,110 @@ const ProjectComp = () => {
       <div class="lg:m-10">
         <div class="lg:p-5">
           <h1
-            class="text-center lg:text-4xl text-2xl font-extrabold text-white"
+            class=" lg:text-4xl text-2xl font-extrabold text-white text-center lg:my-0 my-5"
             data-aos="fade-up"
           >
             Our Projects
           </h1>
         </div>
       </div>
+      <div class="grid lg:grid-cols-4 gap-5  ">
+ 
+          <div
+            class=" max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            data-aos="flip-up"
+            data-aos-duration="3000"
+          >
+       
+            <div class="">
+              <a href="https://virtualtec.org/" target="_blank">
+                <Image
+                  class="rounded-t-lg"
+                  src="/VirtualTech.png"
+                  alt=""
+                  width={500}
+                  height={200}
+                />
+              </a>
+            </div>
+            <div>
+              <div class="m-5">
+                <a href="/https://virtualtec.org/" target="_blank" class="">
+                <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white ">
+                  Virtual Tech
+                </h2>
+                <p class=" text-base font-regular tracking-tight text-white ">
+                  Revolutionizing fintech with cutting-edge technology and
+                  transformative applications, powered by V Zone Solutions.
+                </p></a>
 
-      <div class="grid lg:grid-cols-4 gap-5  justify-center">
-        <div
-          class=" max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
-          data-aos-duration="3000"
-        >
-          <div class="">
-            <Image
-              class="rounded-t-lg"
-              src="/VirtualTech.png"
-              alt=""
-              width={500}
-              height={200}
-            />
+                <div class=" mt-4">
+                  <a
+                    href="https://virtualtec.org/"
+                    target="_blank"
+                    class="text-white  border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700"
+                  >
+                    Project Overview
+                  </a>
+                </div>
+              </div>
+            </div>
+        
           </div>
-          <div>
-            <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
-                Virtual Tech
-              </h2>
-              <p class="mb-2 text-base font-regular tracking-tight text-white  ">
-                Revolutionizing fintech with cutting-edge technology and
-                transformative applications, powered by V Zone Solutions.
-              </p>
-              <div class="flex justify-center">
-                <a
-                  href="https://virtualtec.org/"
-                  target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
-                >
-                  Project Overview
+   
+          <div
+            class=" max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            data-aos="flip-up"
+            data-aos-duration="3000"
+          >
+            <div class="">
+               <a
+                    href="/vrcscan.com"
+                  >
+              <Image
+                class="rounded-t-lg"
+                src="/VrcScan.png"
+                alt=""
+                width={500}
+                height={200}
+              />
+              </a>
+            </div>
+            <div>
+              <div class=" m-5">
+              <a
+                    href="/vrcscan.com"
+                    target="_blank"
+                  >
+                <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white ">
+                  Virtual Scan
+                </h2>
+                <p class=" text-base font-regular tracking-tight text-white  ">
+                  Where cutting-edge technology defies norms, enabling enhanced
+                  connectivity, interaction, and digital asset management.
+                </p>
                 </a>
+                <div class="mt-4">
+                  <a
+                    href="/vrcscan.com"
+                    target="_blank"
+                    class="text-white  border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700"
+                  >
+                    Project Overview
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+       
         <div
           class=" max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           data-aos="flip-up"
           data-aos-duration="3000"
         >
           <div class="">
-            <Image
-              class="rounded-t-lg"
-              src="/VrcScan.png"
-              alt=""
-              width={500}
-              height={200}
-            />
-          </div>
-          <div>
-            <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
-                Virtual Scan
-              </h2>
-              <p class="mb-2 text-base font-regular tracking-tight text-white  ">
-                Where cutting-edge technology defies norms, enabling enhanced
-                connectivity, interaction, and digital asset management.
-              </p>
-              <div class="flex justify-center">
-                <a
-                  href="/comingsoon"
-                  target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
-                >
-                  Project Overview
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class=" max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
-          data-aos-duration="3000"
-        >
-          <div class="">
+            <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualSwap.png"
@@ -103,10 +122,13 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Swap
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -114,11 +136,12 @@ const ProjectComp = () => {
                 decentralization, liquidity, and endless possibilities to the
                 world of virtual trading and gaming.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white  border p-2 rounded  hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>
@@ -132,6 +155,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualExchange.png"
@@ -139,22 +164,26 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Exchange
               </h2>
-              <p class="mb-2 text-base font-regular tracking-tight text-white  ">
+              <p class="mb-5 mt-5 text-base font-regular tracking-tight text-white  ">
                 Your centralized, secure, and user-friendly platform for trading
                 a wide range of cryptocurrencies, including the native VRC Coin,
                 on your digital financial journey.
               </p>
-              <div class="flex justify-center">
+            </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded  hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>
@@ -168,6 +197,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="https://play.google.com/store/apps/developer?id=VZone+Solutions"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualGame.png"
@@ -175,10 +206,13 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="https://play.google.com/store/apps/developer?id=VZone+Solutions"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Gaming
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -186,11 +220,12 @@ const ProjectComp = () => {
                 play-to-earn (P2E) game with endless levels and multiplayer
                 functionality.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <a
                   href="https://play.google.com/store/apps/developer?id=VZone+Solutions"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                 >
                   Project Overview
                 </a>
@@ -204,6 +239,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualBook.png"
@@ -211,10 +248,13 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Book
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -222,11 +262,12 @@ const ProjectComp = () => {
                 digital connection, creation, and control in the new era of
                 communication.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                 >
                   Project Overview
                 </Link>
@@ -240,6 +281,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualPad.png"
@@ -247,21 +290,25 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Pad
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
                 The streamlined platform for IDOs, IEOs, and ITOs, offering
                 security and interactivity for creators and investors alike.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded  hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>
@@ -275,6 +322,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualStore.png"
@@ -282,10 +331,13 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 MT-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Store
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -293,11 +345,12 @@ const ProjectComp = () => {
                 online shopping with enhanced security, transparency, and
                 reliability.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>
@@ -311,6 +364,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualProperty.png"
@@ -318,10 +373,13 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+          </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 MT-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Property
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -329,11 +387,12 @@ const ProjectComp = () => {
                 estate through seamless, peer-to-peer property transactions
                 using cryptocurrency and NFTs.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                 >
                   Project Overview
                 </Link>
@@ -347,6 +406,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualTube.png"
@@ -354,10 +415,13 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Tube
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -365,11 +429,12 @@ const ProjectComp = () => {
                 sharing, monetization, and cryptocurrency earnings for creators
                 and viewers.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded  hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>
@@ -383,6 +448,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualCafe.png"
@@ -390,22 +457,26 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Cafe
               </h2>
-              <p class="mb-2 text-base font-regular tracking-tight text-white  ">
+              <p class="mb-5 mt-5 text-base font-regular tracking-tight text-white  ">
                 The metaverse vibrant community hub, uniting virtual gatherings,
                 gaming, movies, and engaging activities for memorable social
                 interactions.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded  hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>
@@ -419,6 +490,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualSchool.png"
@@ -426,10 +499,13 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+          </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual School
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -437,11 +513,12 @@ const ProjectComp = () => {
                 Islamic Studies, Blockchain Studies, and Crypto Studies for a
                 future-focused education.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded  hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>
@@ -455,6 +532,8 @@ const ProjectComp = () => {
           data-aos-duration="3000"
         >
           <div class="">
+          <Link href="/comingsoon"
+                  target="_blank">
             <Image
               class="rounded-t-lg"
               src="/VirtualWallet.png"
@@ -462,21 +541,25 @@ const ProjectComp = () => {
               width={500}
               height={200}
             />
+            </Link>
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 Virtual Wallet
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
                 Securely manage cryptocurrencies with unparalleled control and
                 seamless transactions using cutting-edge blockchain technology.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                 >
                   Project Overview
                 </Link>
@@ -500,7 +583,9 @@ const ProjectComp = () => {
           </div>
           <div>
             <div class=" m-5">
-              <h2 class="mb-2 text-2xl font-bold tracking-tight text-white  text-center">
+            <Link href="/comingsoon"
+                  target="_blank">
+              <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white  ">
                 V Pay
               </h2>
               <p class="mb-2 text-base font-regular tracking-tight text-white  ">
@@ -508,11 +593,12 @@ const ProjectComp = () => {
                 securely and conveniently with virtual cards, debit cards, and
                 decentralized POS systems.
               </p>
-              <div class="flex justify-center">
+              </Link>
+              <div class="flex ">
                 <Link
                   href="/comingsoon"
                   target="_blank"
-                  class="text-white lg:opacity-0 opacity-100 lg:border-0 border p-2 rounded hover:opacity-100  hover:border hover:p-2"
+                  class="text-white   border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                 >
                   Project Overview
                 </Link>

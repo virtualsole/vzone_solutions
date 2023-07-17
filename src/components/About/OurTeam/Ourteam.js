@@ -36,7 +36,7 @@ const OurteamComp = () => {
           <div class=" ">
             <Image
               class="rounded-t-lg"
-              src="/0002.png"
+              src="/0001.png"
               alt=""
               width={1000}
               height={100}
@@ -62,7 +62,7 @@ const OurteamComp = () => {
         >
           <Image
             class="rounded-t-lg"
-            src="/0003.png"
+            src="/2.png"
             alt=""
             width={1000}
             height={100}
@@ -88,7 +88,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/0006.png"
+              src="/3.png"
               alt=""
               width={1000}
               height={100}
@@ -114,7 +114,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/0007.png"
+              src="/4.png"
               alt=""
               width={1000}
               height={100}
@@ -141,7 +141,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/0008.png"
+              src="/5.png"
               alt=""
               width={1000}
               height={100}
@@ -168,7 +168,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/0002.png"
+              src="/6.png"
               alt=""
               width={1000}
               height={100}
@@ -194,7 +194,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/0006.png"
+              src="/7.png"
               alt=""
               width={1000}
               height={100}
@@ -221,7 +221,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/0002.png"
+              src="/8.png"
               alt=""
               width={1000}
               height={100}
