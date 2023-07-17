@@ -69,7 +69,8 @@ const ProjectComp = () => {
           >
             <div class="">
                <a
-                    href="/vrcscan.com"
+                    href="https://vrcscan.com/"
+                    target="_blank"
                   >
               <Image
                 class="rounded-t-lg"
@@ -83,7 +84,7 @@ const ProjectComp = () => {
             <div>
               <div class=" m-5">
               <a
-                    href="/vrcscan.com"
+                    href="https://vrcscan.com/"
                     target="_blank"
                   >
                 <h2 class="mb-5 mt-5 text-2xl font-bold tracking-tight text-white ">
@@ -96,7 +97,7 @@ const ProjectComp = () => {
                 </a>
                 <div class="mt-4">
                   <a
-                    href="/vrcscan.com"
+                    href="https://vrcscan.com/"
                     target="_blank"
                     class="text-white  border p-2 rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700"
                   >
