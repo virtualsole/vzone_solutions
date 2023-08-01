@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     // `${inter.className} bg-gray-200`
     <html lang="en">
       <head>
-        <title> V zone Solutions</title>
+        <title> VZone Solutions</title>
       </head>
       <body className={inter.className}>
         {/* <div class="bg-[url('/vzone-bg.png')]"> */}
