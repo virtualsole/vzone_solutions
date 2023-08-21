@@ -49,7 +49,7 @@ const HomeComp = () => {
                 <div class="lg:order-2 order-1">
                   <Image
                     className="h-auto "
-                    src="/VR web super groot animation 3k by 3k.gif"
+                    src="/ChusInsan.gif"
                     width={500}
                     height={500}
                     alt=""
