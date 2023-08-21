@@ -26,7 +26,7 @@ const MetaverseStats = () => {
                   class="text-base font-medium tracking-wider my-5 text-white lg:text-left 	"
                   data-aos="fade-up"
                 >
-                  At <span class=" lg:text-xl font-black">VZone Solutions</span>
+                  At <span class="font-black">VZone Solutions</span>
                   , our vision is to revolutionize the digital landscape by
                   creating an immersive and interconnected Metaverse ecosystem,
                   where individuals can explore, innovate, and thrive in

@@ -25,7 +25,7 @@ const HomeComp = () => {
                       data-aos="fade-up"
                       data-aos-duration="1000"
                     >
-                      <span class=" lg:text-xl font-black	">
+                      <span class="font-black	">
                         VZone Solutions
                       </span>
                       &nbsp; is a Powerful Ecosystem of Metaverse, Web3

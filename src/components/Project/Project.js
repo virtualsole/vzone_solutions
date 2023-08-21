@@ -37,7 +37,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight md:text-lg text-white ">
                       VRC SCAN
                     </h2>
                     <div class="flex items-center bg-green-700 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -110,7 +110,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight  md:text-lg text-white ">
                       VRC Coin
                     </h2>
                     <div class="flex items-center bg-green-700 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -182,7 +182,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight  md:text-lg text-white ">
                       Virtual Swap
                     </h2>
                     <div class="flex items-center bg-amber-400	 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -255,7 +255,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight md:text-lg text-white ">
                       Virtual Tech
                     </h2>
                     <div class="flex items-center bg-green-700 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -327,7 +327,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight  md:text-lg text-white ">
                       Virtual Pad
                     </h2>
                     <div class="flex items-center bg-green-700 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -400,7 +400,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight md:text-lg text-white ">
                       Virtual Gaming
                     </h2>
                     <div class="flex items-center bg-green-700 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -473,7 +473,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight md:text-lg text-white ">
                       Virtual Exchange
                     </h2>
                     <div class="flex items-center bg-amber-400	 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -620,7 +620,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl md:text-lg font-bold tracking-tight text-white ">
                       V Store
                     </h2>
                     <div class="flex items-center bg-amber-400	 text-white text-xs px-2 py-1 ml-3 rounded">
