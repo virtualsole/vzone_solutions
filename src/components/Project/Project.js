@@ -4,9 +4,14 @@ import React from "react";
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import { useEffect } from "react";
+import AOS from "aos";
 // import "./project.css"
 
 const ProjectComp = () => {
+  useEffect(() => {
+    AOS.refresh(); // Refresh AOS after component load to detect new elements
+  }, []);
   return (
     <div class="container mx-auto my-auto">
       <div class="lg:m-10">
@@ -20,8 +25,10 @@ const ProjectComp = () => {
         </div>
       </div>
 
-      <div class="grid lg:grid-cols-4 gap-5 p-3 lg:p-0">
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+      <div class="grid lg:grid-cols-4  gap-5 p-3 lg:p-0">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6" 
+         data-aos="flip-left"
+         data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -37,7 +44,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight md:text-lg text-white ">
+                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight md:text-base text-white ">
                       VRC SCAN
                     </h2>
                     <div class="flex items-center bg-green-700 text-white text-xs px-2 py-1 ml-3 rounded">
@@ -94,7 +101,9 @@ const ProjectComp = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6"
+        data-aos="flip-left"
+        data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -122,8 +131,7 @@ const ProjectComp = () => {
                 <div class="lg:flex  py-4  text-sm text-gray-600">
                   <div class="flex-1 inline-flex items-center  mb-3">
                     <p class=" text-base font-regular tracking-tight text-white ">
-                      VRC coin is a Native cryptocurrency of VRC Blockchain with
-                      the massive ecosystem.
+                    VRC coin: Native to VRC Blockchain, powers ecosystem, offers POS rewards via staking for VRC crypto.
                     </p>
                   </div>
                 </div>
@@ -166,7 +174,8 @@ const ProjectComp = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6" data-aos="flip-left"
+         data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -194,9 +203,7 @@ const ProjectComp = () => {
                 <div class="lg:flex  py-4  text-sm text-gray-600">
                   <div class="flex-1 inline-flex items-center  mb-3">
                     <p class=" text-base font-regular tracking-tight text-white ">
-                      Welcome to Virtual Swap, the revolutionary platform that
-                      brings decentralization, liquidity, and endless
-                      possibilities to the world of virtual trading and gaming.
+                    Virtual Swap: Revolutionizing virtual trading and gaming with decentralization, liquidity, and boundless opportunities.
                     </p>
                   </div>
                 </div>
@@ -239,7 +246,8 @@ const ProjectComp = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6" data-aos="flip-left"
+         data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -268,7 +276,7 @@ const ProjectComp = () => {
                   <div class="flex-1 inline-flex items-center  mb-3">
                     <p class=" text-base font-regular tracking-tight text-white ">
                       Revolutionizing fintech with cutting-edge technology and
-                      transformative applications, powered by V Zone Solutions.
+                      transformative applications, powered by VZone Solutions.
                     </p>
                   </div>
                 </div>
@@ -311,7 +319,8 @@ const ProjectComp = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6" data-aos="flip-left"
+         data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -384,7 +393,10 @@ const ProjectComp = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6"
+        data-aos="flip-left"
+        data-aos-duration="3000"
+        >
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -412,9 +424,7 @@ const ProjectComp = () => {
                 <div class="lg:flex  py-4  text-sm text-gray-600">
                   <div class="flex-1 inline-flex items-center  mb-3">
                     <p class=" text-base font-regular tracking-tight text-white ">
-                      Experience the future of gaming at Virtual Gaming: a
-                      Web3-based play-to-earn (P2E) game with endless levels and
-                      multiplayer functionality.
+                    Virtual Gaming: Web3 P2E game offers endless levels, multiplayer; experience future of gaming innovation.
                     </p>
                   </div>
                 </div>
@@ -457,7 +467,8 @@ const ProjectComp = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6" data-aos="flip-left"
+         data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -485,9 +496,7 @@ const ProjectComp = () => {
                 <div class="lg:flex  py-4  text-sm text-gray-600">
                   <div class="flex-1 inline-flex items-center  mb-3">
                     <p class=" text-base font-regular tracking-tight text-white ">
-                      Your centralized, secure, and user-friendly platform for
-                      trading a wide range of cryptocurrencies, including the
-                      native VRC Coin, on your digital financial journey.
+                    Secure, user-friendly platform for trading VRC Coin and various cryptocurrencies; central to your financial journey.
                     </p>
                   </div>
                 </div>
@@ -530,7 +539,8 @@ const ProjectComp = () => {
             </div>
           </div>
         </div>
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6" data-aos="flip-left"
+         data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -558,9 +568,7 @@ const ProjectComp = () => {
                 <div class="lg:flex  py-4  text-sm text-gray-600">
                   <div class="flex-1 inline-flex items-center  mb-3">
                     <p class=" text-base font-regular tracking-tight text-white ">
-                      The blockchain-powered social media platform for
-                      unprecedented digital connection, creation, and control in
-                      the new era of communication.
+                    Blockchain social platform enabling digital connection, creation, and control in new communication era.
                     </p>
                   </div>
                 </div>
@@ -604,7 +612,8 @@ const ProjectComp = () => {
           </div>
         </div>
 
-        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6">
+        <div class="max-w-md w-full bg-fuchsia-700 shadow-lg rounded-xl p-6" data-aos="flip-left"
+         data-aos-duration="3000">
           <div class="flex flex-col ">
             <div class="">
               <div class="relative h-62 w-full mb-3">
@@ -632,9 +641,7 @@ const ProjectComp = () => {
                 <div class="lg:flex  py-4  text-sm text-gray-600">
                   <div class="flex-1 inline-flex items-center  mb-3">
                     <p class=" text-base font-regular tracking-tight text-white ">
-                      The blockchain-powered e-commerce platform revolutionizing
-                      online shopping with enhanced security, transparency, and
-                      reliability.
+                    Blockchain e-commerce enhances security, transparency, revolutionizes online shopping with reliability and innovation.
                     </p>
                   </div>
                 </div>

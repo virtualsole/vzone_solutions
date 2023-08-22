@@ -30,7 +30,7 @@ const OurteamComp = () => {
       <div class="grid lg:grid-cols-4 gap-4 m-2">
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <div class=" ">
@@ -57,7 +57,7 @@ const OurteamComp = () => {
         </div>
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <Image
@@ -82,7 +82,7 @@ const OurteamComp = () => {
         </div>
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800	 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <a href="#">
@@ -108,7 +108,7 @@ const OurteamComp = () => {
         </div>
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800	 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <a href="#">
@@ -135,7 +135,7 @@ const OurteamComp = () => {
         </div>
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800	 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <a href="#">
@@ -162,7 +162,7 @@ const OurteamComp = () => {
         </div>
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800	 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <a href="#">
@@ -188,7 +188,7 @@ const OurteamComp = () => {
         </div>
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800	 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <a href="#">
@@ -215,7 +215,7 @@ const OurteamComp = () => {
         </div>
         <div
           class="max-w-sm bg-gradient-to-r from-indigo-500 to-pink-700 border border-violet-800	 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
-          data-aos="flip-up"
+          data-aos="flip-left"
           data-aos-duration="3000"
         >
           <a href="#">
