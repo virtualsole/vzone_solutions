@@ -46,7 +46,7 @@ const ContactComp = () => {
           </div>
           <h1 class="text-center text-lg font-bold p-2 text-white">Email</h1>
           <p class="text-center  text-white p-2 font-semibold">
-            info@vzonesolutions.org
+            info@vzsolution.org
           </p>
         </div>
         <div class="box-border  text-center border p-3 hover:bg-gradient-to-r from-indigo-500 to-pink-700 hover:border-0">
