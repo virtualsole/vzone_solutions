@@ -619,7 +619,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/VirtualStore.png"
+                  src="/Vstore.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
