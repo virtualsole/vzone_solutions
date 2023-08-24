@@ -68,7 +68,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </a>
                   <a
                     href="https://vrcscan.com/"
@@ -137,14 +137,14 @@ const ProjectComp = () => {
                 </div>
                 <div class="flex space-x-2  font-medium justify-between	 items-center">
                   <Link
-                    href="/comingsoon"
+                    href="http://vrccoin.com"
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </Link>
                   <Link
-                    href="/comingsoon"
+                    href="http://vrccoin.com"
                     target="_blank"
                     class="transition ease-in duration-300 bg-indigo-500 hover:border-gray-500 border-slate-200 hover:text-white  hover:shadow-lg text-gray-200 rounded-full w-9 h-9 text-center p-2"
                   >
@@ -213,7 +213,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </Link>
                   <Link
                     href="/comingsoon"
@@ -286,7 +286,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </a>
                   <a
                     href="https://virtualtec.org/"
@@ -360,7 +360,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </Link>
                   <Link
                     href="/comingsoon"
@@ -434,7 +434,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </Link>
                   <Link
                     href="/comingsoon"
@@ -506,7 +506,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </Link>
                   <Link
                     href="/comingsoon"
@@ -578,7 +578,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </Link>
                   <Link
                     href="/comingsoon"
@@ -651,7 +651,7 @@ const ProjectComp = () => {
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
-                    Project OverView
+                    Project Overview
                   </Link>
                   <Link
                     href="/comingsoon"
