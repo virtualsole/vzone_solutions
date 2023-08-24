@@ -52,7 +52,7 @@ const FooterIcon = () => {
             </div>
             <div class="box-border flex items-center justify-center h-10 w-10">
               <a
-                href="https://www.instagram.com/vzonesloutions/"
+                href="https://www.instagram.com/vzonesolution/?igshid=MzRlODBiNWFlZA%3D%3D"
                 target="_blank"
               >
                 <FontAwesomeIcon
