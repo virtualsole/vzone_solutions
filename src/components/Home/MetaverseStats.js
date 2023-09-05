@@ -23,7 +23,7 @@ const MetaverseStats = () => {
                   Our Mission & Vision
                 </h1>
                 <p
-                  class="text-base font-medium tracking-wider my-5 text-white lg:text-left 	"
+                  class="lg:text-xl font-medium tracking-wider my-5 text-white lg:text-left 	"
                   data-aos="fade-up"
                 >
                   At <span class="font-black">VZone Solutions</span>
@@ -33,7 +33,7 @@ const MetaverseStats = () => {
                   limitless virtual possibilities.
                 </p>
                 <p
-                  class="text-base font-medium tracking-wider my-5 text-white lg:text-left 	"
+                  class="lg:text-xl  font-medium tracking-wider my-5 text-white lg:text-left 	"
                   data-aos="fade-up"
                 >
                   Our mission is to provide cutting-edge technologies and

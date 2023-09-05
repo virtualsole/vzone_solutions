@@ -34,7 +34,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/VrcScan_website.png"
+                  src="/VrcScan_website.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
@@ -109,7 +109,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/VrcCoinWebsite.png"
+                  src="/VrcCoinWebsite.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
@@ -181,7 +181,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/VSwap_website.png"
+                  src="/VSwap_website.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
@@ -253,7 +253,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/Vtech_Website.png"
+                  src="/Vtech_Website.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
@@ -326,7 +326,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/LaunchPad_Website.png"
+                  src="/LaunchPad_Website.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
@@ -356,14 +356,14 @@ const ProjectComp = () => {
                 </div>
                 <div class="flex space-x-2  font-medium justify-between	 items-center">
                   <Link
-                    href="/comingsoon"
+                    href="https://vrcpad.io/"
                     target="_blank"
                     class="transition ease-in duration-300 inline-flex items-center  text-white  border p-2 font-medium mb-2 md:mb-0 px-5 py-2 hover:shadow-lg tracking-wider rounded hover:bg-gradient-to-r from-indigo-500 to-pink-700 "
                   >
                     Project Overview
                   </Link>
                   <Link
-                    href="/comingsoon"
+                    href="https://vrcpad.io/"
                     target="_blank"
                     class="transition ease-in duration-300 bg-indigo-500 hover:border-gray-500 border-slate-200 hover:text-white  hover:shadow-lg text-gray-200 rounded-full w-9 h-9 text-center p-2"
                   >
@@ -402,7 +402,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/Virtual_Cops.png"
+                  src="/Virtual_Cops.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
@@ -437,7 +437,7 @@ const ProjectComp = () => {
                     Project Overview
                   </Link>
                   <Link
-                    href="/comingsoon"
+                    href="https://play.google.com/store/apps/developer?id=VZone+Solutions"
                     target="_blank"
                     class="transition ease-in duration-300 bg-indigo-500 hover:border-gray-500 border-slate-200 hover:text-white  hover:shadow-lg text-gray-200 rounded-full w-9 h-9 text-center p-2"
                   >
@@ -474,7 +474,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/VirtualExchange.png"
+                  src="/VirtualExchange.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}
@@ -546,7 +546,7 @@ const ProjectComp = () => {
               <div class="relative h-62 w-full mb-3">
                 <div class="absolute flex flex-col top-0 right-0 p-3"></div>
                 <Image
-                  src="/VirtualBook.png"
+                  src="/VirtualBook.jpg"
                   alt="Just a flower"
                   class=" w-full   object-fill  rounded-2xl"
                   width={500}

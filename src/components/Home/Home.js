@@ -21,7 +21,7 @@ const HomeComp = () => {
                 <div class="bg-neutral-950 rounded lg:order-1 order-2">
                   <div class="lg:m-5">
                     <h1
-                      class="lg:text-base font-semibold  md:text-left text-white"
+                      class="lg:text-xl	 font-semibold  md:text-left text-white"
                       data-aos="fade-up"
                       data-aos-duration="1000"
                     >
@@ -33,7 +33,7 @@ const HomeComp = () => {
                       Social Media Platforms.
                     </h1>
                     <p
-                      class="my-6 lg:text-base font-semibold  text-white"
+                      class="my-6 lg:text-xl font-semibold  text-white"
                       data-aos="fade-up"
                       data-aos-duration="1000"
                     >

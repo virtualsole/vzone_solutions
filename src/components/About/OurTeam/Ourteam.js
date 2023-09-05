@@ -36,7 +36,7 @@ const OurteamComp = () => {
           <div class=" ">
             <Image
               class="rounded-t-lg"
-              src="/0001.png"
+              src="/0001.jpg"
               alt=""
               width={1000}
               height={100}
@@ -62,7 +62,7 @@ const OurteamComp = () => {
         >
           <Image
             class="rounded-t-lg"
-            src="/2.png"
+            src="/2.jpg"
             alt=""
             width={1000}
             height={100}
@@ -88,7 +88,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/3.png"
+              src="/3.jpg"
               alt=""
               width={1000}
               height={100}
@@ -114,7 +114,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/4.png"
+              src="/4.jpg"
               alt=""
               width={1000}
               height={100}
@@ -141,7 +141,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/5.png"
+              src="/5.jpg"
               alt=""
               width={1000}
               height={100}
@@ -168,7 +168,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/6.png"
+              src="/6.jpg"
               alt=""
               width={1000}
               height={100}
@@ -194,7 +194,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/7.png"
+              src="/7.jpg"
               alt=""
               width={1000}
               height={100}
@@ -221,7 +221,7 @@ const OurteamComp = () => {
           <a href="#">
             <Image
               class="rounded-t-lg"
-              src="/8.png"
+              src="/8.jpg"
               alt=""
               width={1000}
               height={100}

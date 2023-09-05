@@ -26,7 +26,7 @@ export default function Home() {
       {/* <ShortTerm /> */}
       {/* <LongTerm /> */}
       {/* <Access /> */}
-      <CheckOut />
+      {/* <CheckOut /> */}
       <LearnMore />
     </div>
   );

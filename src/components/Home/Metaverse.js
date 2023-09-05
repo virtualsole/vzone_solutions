@@ -25,7 +25,7 @@ const Metaverse = () => {
             <div class="gird items-center backdrop-blur-sm bg-neutral-950">
               <div class="m-5">
                 <p
-                  class="text-left text-base font-medium  text-white m-2"
+                  class="text-left lg:text-xl font-medium  text-white m-2"
                   data-aos="fade-up"
                 >
                   Choose Vzone Solutions for an unparalleled virtual experience.
@@ -36,7 +36,7 @@ const Metaverse = () => {
                   realm.
                 </p>
                 <p
-                  class="text-base font-medium my-4 text-white  lg:text-left m-2"
+                  class="lg:text-xl font-medium my-4 text-white  lg:text-left m-2"
                   data-aos="fade-up"
                 >
                   The blockchain, hospitality and gaming industry are growing by
@@ -45,7 +45,7 @@ const Metaverse = () => {
                   payment methods.
                 </p>
                 <p
-                  class="text-base font-medium my-4 text-white lg:text-left m-2"
+                  class="lg:text-xl font-medium my-4 text-white lg:text-left m-2"
                   data-aos="fade-up"
                 >
                   Our goal is to create a unified cryptocurrency for the utility

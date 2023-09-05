@@ -5,6 +5,13 @@
 :root {
   --foreground-rgb: 0, 0, 0;
 }
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-v17-latin-regular.woff2') format('woff2'),
+       url('/fonts/lato/lato-v17-latin-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -13,14 +20,19 @@
   }
 }
 
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Lato', sans-serif;
+}
+
 
 
 body {
+  font-family: 'Lato', sans-serif;
   color: rgb(var(--foreground-rgb));
   /* background:rgb(var(--background-rgb)); */
 
   /* background-position: center !important; */
-  background-image: url("/VR web BG V25.png") !important;
+  background-image: url("/VR-web-BG-V25.jpg") !important;
   background-repeat: no-repeat !important;
   /* background-size: cover !important;
    */
