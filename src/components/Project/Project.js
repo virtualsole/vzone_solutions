@@ -556,7 +556,7 @@ const ProjectComp = () => {
               <div class="flex-auto justify-evenly">
                 <div class="flex flex-wrap ">
                   <div class="flex items-center w-full justify-between min-w-0 ">
-                    <h2 class=" mr-auto cursor-pointer text-2xl font-bold tracking-tight text-white ">
+                    <h2 class="mr-auto cursor-pointer text-2xl font-bold tracking-tight md:text-lg text-white ">
                       Virtual Book
                     </h2>
                     <div class="flex items-center bg-amber-400	 text-white text-xs px-2 py-1 ml-3 rounded">
